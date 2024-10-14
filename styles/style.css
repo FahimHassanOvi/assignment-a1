@@ -410,7 +410,6 @@ main input[type="submit"] {
 .contract-container {
     padding: 34px 158px 34px;
     display: flex;
-    justify-content: center;
     align-items: center;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
