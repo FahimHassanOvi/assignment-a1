@@ -91,9 +91,10 @@ body {
 main {
     max-width: 1519px;
     /* margin: 0 auto; */
-    margin-top: 0;
+    /* margin-top: 0;
     margin-right: 152px;
-    margin-left: 152px;
+    margin-left: 152px; */
+    margin: 0px auto 0px;
 }
 
 main .development {
@@ -173,6 +174,10 @@ main .development {
     /* line-height: 23px; */
     /* letter-spacing: 0%; */
     text-align: center;
+}
+.banner-container .bn-container .item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .reason-img {
@@ -394,4 +399,34 @@ main input[type="submit"] {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* footer style section  */
+.contract{
+    margin-top: 80px;
+    height: 105.5px;
+    /* width: 1519px; */
+}
+.contract-container {
+    padding: 34px 158px 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
+}
+
+.contract-name {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.contract-icon{
+    display: flex;
+    gap: 20px;
 }
