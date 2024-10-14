@@ -65,7 +65,7 @@ body {
     text-align: center;
 }
 
-.btn-name {
+.btn-name-1 {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -165,13 +165,13 @@ main .development {
     opacity: 0.7;
 }
 
-.learn-more {
+.btn-name {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
+    /* line-height: 23px; */
+    /* letter-spacing: 0%; */
     text-align: center;
 }
 
@@ -181,10 +181,12 @@ main .development {
 }
 
 .learn-more {
+    width: 180px;
+    height: 49px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    
+
 
 }
 
@@ -201,4 +203,40 @@ main .development {
 .reason-item-3 {
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+/* inspiration style  */
+.inspiration{
+    margin-top: 100px;
+}
+.inspiration-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspiration-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inspiration-video-container{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 34px;
+
+}
+.inspiration-video{
+    width: 100%;
+    /* width: 1135px; */
+    height: 580px;
 }
