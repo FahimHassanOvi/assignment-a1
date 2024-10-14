@@ -11,6 +11,10 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* banner style section  */
 
 .banner-container {
@@ -85,15 +89,116 @@ body {
 
 /* main style  */
 main {
-    max-width: 1140px;
-    margin: 0 auto;
+    max-width: 1519px;
+    /* margin: 0 auto; */
+    margin-top: 0;
+    margin-right: 152px;
+    margin-left: 152px;
 }
 
 main .development {
     margin-top: 74px;
+
 }
 
+/* development style  */
 .development {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+}
+
+.title-description-container {
+    margin-right: 49.5px;
+    margin-left: 49.5px;
+}
+
+.dev-container {
+    padding: 80px 97px 80px;
+}
+
+.development-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.development-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.reason-item-1,
+.reason-item-2,
+.reason-item-3 {
+    max-height: 336px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reason-text {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 503px;
+}
+
+.reason-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.reason-img {
+    width: 273px;
+    height: 228px;
+}
+
+.learn-more {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    
+
+}
+
+.reason-item-1 {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.reason-item-2 {
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.reason-item-3 {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
